@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/appworks__clone/static/css/main.c147d42c.css",
+    "main.js": "/appworks__clone/static/js/main.c3540851.js",
+    "static/js/651.0d8434c7.chunk.js": "/appworks__clone/static/js/651.0d8434c7.chunk.js",
+    "static/media/people.jpg": "/appworks__clone/static/media/people.328eb66055bd80b98477.jpg",
+    "static/media/taipei101.jpg": "/appworks__clone/static/media/taipei101.6cfdd24a3bc0948d25fd.jpg",
+    "index.html": "/appworks__clone/index.html",
+    "main.c147d42c.css.map": "/appworks__clone/static/css/main.c147d42c.css.map",
+    "main.c3540851.js.map": "/appworks__clone/static/js/main.c3540851.js.map",
+    "651.0d8434c7.chunk.js.map": "/appworks__clone/static/js/651.0d8434c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c147d42c.css",
+    "static/js/main.c3540851.js"
+  ]
+}

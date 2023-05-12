@@ -1,0 +1,164 @@
+
+.container__about {
+    height: 100vh;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container__intro {
+    margin-left: 0rem;
+    margin-right: 15rem;
+    margin-top: 5rem;
+    left: 0;
+    width: 60%;
+    text-align: left;
+}
+
+
+p {
+    margin-top: 2rem;
+}
+
+
+    
+
+.container__network{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.container__network::before{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    width: 80%;
+    height: 40%;
+    left: 10%;
+    background: url('/Users/pollyannawu/Desktop/SideProject/appworks_clone/public/people.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    filter: opacity(50%);
+    border-radius: 2rem 2rem 2rem 2rem;
+
+}
+
+.record__container {
+    width: 80%;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.number__container {
+  font: 800 40px system-ui;
+    font-size: 50px;
+    color: rgb(230, 216, 21);
+    mix-blend-mode: difference;
+    display: flex;
+    justify-content: left;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+
+.number{
+    margin: 5%;
+    padding-right: 5%;
+
+}
+
+
+
+.counter {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.unit{
+    color: rgb(49, 86, 125);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 700px){
+    .container__about{
+        width: 80%;
+    }
+    .number__container{
+        width: 80%;
+    }
+
+
+}
+
+/* ========== Medium Device ============ */
+
+/* ========== Small Device ============ */
+
+@media screen and (max-width: 700px) {
+
+    .container__about{
+        width: 100%;
+        height: 120vh;
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__network::before{
+        height: 35%;
+        width: 90%;
+        left: 5%;
+        filter: opacity(30%);
+
+    }
+    .container__intro{
+        margin: 3rem;
+        width:100%;
+        text-align: center;
+    }
+
+    .record__container{
+        margin-top: 2rem;
+        justify-content: center;
+        margin-left: 3rem;
+    }
+
+    .number__container{
+        font-size: 20px;
+        justify-content: center;
+        color: rgb(248, 236, 9);
+    }
+
+    .unit{
+        font-size: 15px;
+        justify-content: left;
+    }
+
+    .number{
+        padding-right: 0 auto;
+        margin-right: 0 auto;
+    }
+    
+    .counter{
+        justify-content: center;
+    }
+    
+}

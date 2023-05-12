@@ -1,0 +1,50 @@
+.notfound__container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    transition: all;
+}
+
+.notfound__content{
+    display: block;
+    text-align: center;
+}
+
+.notfound__content > h1{
+    color: var(--color-primary);
+    font-size: 80px;
+}
+
+.notfound__content h3{
+    animation: typing 3s steps(10),
+    caret 3s steps(1) infinite;
+    border-right: .05em solid;
+    margin: 0 auto;
+    width: 10em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/* ===========Small Device=========== */
+
+@media screen and (max-width: 700px){
+
+    .notfound__content > h1{
+        color: var(--color-primary);
+        font-size: 50px;
+    }
+    
+}

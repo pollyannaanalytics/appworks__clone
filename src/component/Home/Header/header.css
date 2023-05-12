@@ -1,0 +1,55 @@
+
+
+.container__header {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.title {
+    mix-blend-mode: difference;
+    font-size: 9rem;
+    
+}
+
+
+header > h4 {
+    margin-top: 3rem;
+}
+
+.bg1  {
+    background-image: url('/Users/pollyannawu/Desktop/SideProject/appworks_clone/src/assets/taipei101.jpg');
+}
+
+/* ============== Medium Device ============= */
+
+@media screen and (max-width:1024px) {
+.bg1{
+    margin-top: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+    
+}
+
+/* ============== Small Device ============= */
+
+@media screen and (max-width: 700px) {
+    .bg1{
+        margin-top: 0;
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+    }
+
+    .title {
+        mix-blend-mode: difference;
+        font-size: 5rem;
+    }
+    
+    }

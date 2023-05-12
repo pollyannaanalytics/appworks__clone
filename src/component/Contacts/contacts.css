@@ -1,0 +1,63 @@
+.contact__container{
+    background-color:  var(--color-primary-variant);
+    text-align: center;
+    margin-top: 6%;
+}
+
+.contact__title h3{
+    color: var(--color-primary-dark);
+}
+.contact__title h4{
+    color: var(--color-bg-variant);
+}
+
+.contact__content{
+    margin-top: 5rem;
+    width: 50%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.contact__info p {
+    color: var(--color-primary-dark);
+}
+
+.contact__content a{
+    color: var(--color-primary-dark);
+}
+.contact__icon{
+    margin-top: 5%;
+}
+.contact__icon svg{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.contact__info p {
+    margin-top: 1rem;
+    display: block;
+}
+
+/* ======= Small Device======== */
+
+@media screen and (max-width: 700px) {
+
+    .contact__container{
+        
+        padding-top: 1rem;
+    }
+    
+    .contact__title h3{
+        padding-top: 2rem;
+    }
+
+    .contact__content{
+        padding-top: 1rem;
+        width: 100%;
+    }
+}

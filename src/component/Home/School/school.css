@@ -1,0 +1,98 @@
+.container__school{
+    margin-top: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;    
+}
+
+.title__school{
+    margin-left: 10rem;
+}
+
+
+.content__school{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.p__school{
+    margin-left:0rem;
+    width: 80%;
+    margin-bottom: 3rem;
+}
+
+.btn__container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.special__cards{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.special__card{
+
+    margin-top: 1rem;
+    background-color: var(--color-bg-variant);
+    border-radius: 1rem;
+    height: 10rem;
+    width: 15rem;
+    display: block;
+    text-align: center;
+
+
+}
+
+.special__icon{
+    color: var(--color-primary-dark);
+    margin-top: 1.5rem;
+}
+
+.special__title h4{
+    color: var(--color-primary-dark);}
+    
+.special__icon svg{
+    width: 40px;
+    height: 40px;
+}
+/* ========== Small Device ============ */
+
+@media screen and (max-width: 700px) {
+    .container__school{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    .title__school{
+        margin-left: 3rem;
+    }
+    
+    .content__school{
+        width: 90%;
+        justify-content: center;
+    }
+    .p__school{
+        width: 90%;
+        margin-left: 0rem;
+    }
+    
+    .special__cards{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .special__icon{
+        color: var(--color-primary-dark);
+    }
+}

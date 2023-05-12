@@ -1,25 +1,18 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+  "short_name": "tomatolist",
+  "name": "Tomato Lister",
+  "icons": 
+  {
+      "16": "tomato-slice.png",
+      "48": "tomato-slice.png",
+      "128": "tomato-slice.png"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ,
+"permission": [],
+"manifest_version": 2,
+"version": "0.0.1",
+"browser_action": {
+  "default_popup": "index.html",
+  "default_title": "Tomato Lister"
+}
 }

@@ -33,7 +33,7 @@ const Form = () => {
         e.preventDefault();
         setSubmit(true);
 
-        let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLScnLd1ticVOFqO7cKqTH_dF9WorwNtuASNIQ5TwOR4zZ3vvng/formResponse?entry.1028042253=${formData["entry.1028042253"]}&entry.1757343563=${formData["entry.1757343563"]}&entry.1655780251=${formData["entry.1655780251"]}&entry.333048626=${formData["entry.333048626"]}&entry.1145093821=${formData["entry.1145093821"]}&entry.1188475311=${formData["entry.1188475311"]}&entry.938191713=${"entry.938191713"}&entry.389186138=${"entry.389186138"}&entry.845352696=${"entry.845352696"}&entry.1127894448=${"entry.1127894448"}&entry.1669074606=${"entry.1669074606"}`;
+        let url = `https://docs.google.com/forms/u/0/d/e/1FAIpQLScnLd1ticVOFqO7cKqTH_dF9WorwNtuASNIQ5TwOR4zZ3vvng/formResponse?entry.1028042253=${formData["entry.1028042253"]}&entry.1757343563=${formData["entry.1757343563"]}&entry.1655780251=${formData["entry.1655780251"]}&entry.333048626=${formData["entry.333048626"]}&entry.1145093821=${formData["entry.1145093821"]}&entry.1188475311=${formData["entry.1188475311"]}&entry.938191713=${formData["entry.938191713"]}&entry.389186138=${formData["entry.389186138"]}&entry.845352696=${formData["entry.845352696"]}&entry.1127894448=${formData["entry.1127894448"]}&entry.1669074606=${formData["entry.1669074606"]}`;
 
         const res = await fetch(url, {
             method: "POST",
